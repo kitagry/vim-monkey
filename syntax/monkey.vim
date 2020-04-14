@@ -15,9 +15,9 @@ syn keyword monkeyBuiltinFunction len first last rest push puts quote unquote
 hi def link monkeyBuiltinFunction Function
 
 syn keyword monkeyBool true false
-syn match monkeyString /"[^"]*"/
 syn match monkeyNumber /[0-9]*/
+syn match monkeyString /"[^"]*"/
 
 hi def link monkeyBool Boolean
-hi def link monkeyString String
 hi def link monkeyNumber Number
+hi def link monkeyString String
